@@ -1,6 +1,6 @@
-import { Game } from "src/types";
+import { MOBAGame, FPSGame, RacingGame } from "src/types";
 
-export const mockGames: Game[] = [
+export const mockGames: Array<FPSGame | MOBAGame | RacingGame> = [
   // Racing Games
   {
     title: "Speed Racer",
